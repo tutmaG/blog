@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blog-header {
+    background-color: #fa5454;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.logo a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.main-nav a {
+
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+
+    border: 1px solid #ff9900;
+    padding: 8px 12px;
+    border-radius: 10px; 
+    transition: color 0.1s, background-color 0.3s, border-color 0.3s; 
+}
+
+.main-nav a:hover {
+    color: #c50b08;
+    border-color: rgb(135, 29, 29);
+    box-shadow: 0px 1px 20px rgb(85, 0, 255);
+}
+
+
+.login-signup-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.login-signup-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.login-signup-nav a:hover {
+    color: #c50b08;
+    border-color: rgb(135, 29, 29);
+    box-shadow: 0px 1px 20px rgb(85, 0, 255);
+
+}
+body{
+    background-color: rgb(197, 150, 150);
+}
+
+
+.login-signup-nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #333; 
+    padding: 8px 12px; 
+    border-radius: 10px; 
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s; 
+    border-color: #ff9900; 
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fa5454;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-container form input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+}
+
+.login-container form button {
+    background-color: #ff6600;
+    border: none;
+    border-color: rgb(135, 29, 29);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:  0.4s;
+}
+
+.login-container form button:hover {
+    background-color: #c50b08;
+    box-shadow: 0px 1px 20px rgb(85, 0, 255);
+    border-color: rgb(135, 29, 29);
+    color: #ff9900;
+}
+.login-container{
+    box-shadow:  0px 1px 300px rgb(85, 0, 255);
+}
+.login-container h2{
+    text-align: center;
+}
+.hide_logout{
+    display: none;
+}
+.center{
+    margin-top: 50px;
+    text-align: center;
+
+    padding: 60px;
+}
+.error{
+    text-align: center;
+    color: rgb(85, 0, 255);
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+
+
+
+.userHeader {
+    background-color: #ffcccc; 
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Style the profile container */
+.profile {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:  0px 0px 40px 1px rgb(85, 0, 255);
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+}
+
+/* Style the user's profile image */
+.profile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Style the user's name */
+.profile h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Style the user's details */
+.profile p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+
+/* Style the settings container */
+.settings {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style form inputs */
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the "Save Changes" button */
+.profile-button{
+    background-color: #ff0000; /* Red background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.pad{
+    padding-bottom: 20px;
+}
+/* Style the button on hover */
+.profile-button:hover {
+    background-color: #cc0000; /* Darker red background color on hover */
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.upload-heading {
+    text-align: center;
+}
+
+.upload-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.file-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.prof-img {
+    width: 120px; 
+    display: block; 
+    border: 1px solid #ddd; 
+    box-shadow: 1px 20px 20px rgba(9, 22, 125, 0.1); /* Optional box shadow */
+    margin-bottom: 20px; 
+}
+
+
+.prof-img:hover {
+    opacity: 0.8; 
+}
